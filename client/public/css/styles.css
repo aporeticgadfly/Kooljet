@@ -1,0 +1,202 @@
+.titleDiv {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15rem;
+  background-image: url("../placeholder.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  height: 50rem;
+}
+
+.titleDiv * {
+  text-align: center;
+}
+
+.titleDiv img {
+  width: 60vw;
+}
+
+nav button {
+  border: none;
+  width: 11.1vw;
+}
+
+nav {
+  height: 10rem;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: fixed;
+  top: 0rem;
+  width:100vw;
+  z-index:10;
+}
+
+nav img {
+  width: 15vw;
+  margin-left: 5vw;
+}
+
+.dropdown {
+  display: none;
+}
+
+.fixed-header {
+  position: fixed;
+  top:0rem;
+}
+
+nav button {
+  height: 3rem;
+  background-color: black;
+  color: white;
+}
+
+.smry {
+  margin-left: 5vw;
+  margin-top: 10rem;
+}
+
+.smry h2 {
+  margin: 0;
+}
+
+.prdctDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  margin-top: 10rem;
+}
+
+.prdct {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100vw;
+}
+
+.prdct img {
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.prdct p {
+  margin-left: 10vw;
+}
+
+.misc {
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+}
+
+.miscItm {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5vw;
+  width: 27vw;
+}
+
+.contact hr {
+  margin-top: 10rem;
+}
+.cntct {
+  width: 90vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.cntct img {
+  height: 20rem;
+}
+
+.cntitm {
+  margin-left: 5vw;
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  height: 20rem;
+}
+
+footer {
+  text-align: center;
+}
+
+.aboutDiv {
+  width: 100%;
+  margin-top: 10rem;
+}
+
+.aboutself {
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutservices {
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutsection {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.abtitm {
+  margin-left: 30vw;
+  height: 30rem;
+  width: 40vw;
+  margin-right: 30vw;
+}
+
+.abtitm div {
+  width: 40vw;
+  margin-right: 10vw;
+}
+
+.team {
+  margin: 0;
+  margin-left: 10vw;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.contact {
+  height:96vh;
+  margin-top: 10rem;
+}
+
+.contact * {
+
+}
+
+.marketsDiv, .productsDiv {
+  margin-top: 20rem;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.mrktitm, .prdctitm {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.mrktitm div {
+  margin-left: 5vw;
+}
+
+.prdctitm div {
+  margin-left: 5vw;
+}
